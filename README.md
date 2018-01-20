@@ -1,45 +1,35 @@
-# Brunch Vue Barebones
+# Vuejsで補完機能
 
-A _barebones_ Brunch skeleton for [Vue.js](https://vuejs.org/) - minimal dependencies!
+## セットアップ
 
-Unlike other skeletons with Vue, `brunch-vue-barebones` is based on the official scaffold provided by the Vue.js core team ([vue-cli](https://github.com/vuejs/vue-cli)). The only dependencies are `vue` and `vue-router`; configure it how you like!
-
-Thanks to [https://github.com/nblackburn](@nblackburn) for his work on [vue-brunch](https://github.com/nblackburn/vue-brunch)
-
-## Installation
-
-1. Install Brunch globally
-
+### Brunch 
 ```bash
 npm install -g brunch
 ```
-
-2. Create a new Brunch project using _this_ skeleton
-
+### Typeahead 1
 ```bash
-brunch new -s vue
+npm install --save vue-typeahead
+```
+### Typeahead 2
+```bash
+npm install uiv --save
+```
+### Typeahead 4
+```bash
+npm install vue-multiselect
+```
+## 実行
+```bash
+npm start
 ```
 
-### Manual Install
+## 参考
 
-You can clone this repo manually!
+### Typeahead 1
+https://github.com/pespantelis/vue-typeahead
 
-## Getting Started
+### Typeahead 2
+https://uiv.wxsm.space/typeahead
 
-> Taken from the official Brunch docs
-
-* Install (if you don't have them):
-  * [Node.js](http://nodejs.org): `brew install node` on OS X
-  * [Brunch](http://brunch.io): `npm install -g brunch`
-  * Brunch plugins and app dependencies: `npm install`
-* Run:
-  * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-  * `npm run build` — builds minified project for production
-* Learn:
-  * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-  * Place static files you want to be copied from `app/assets/` to `public/`.
-  * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
-
-## TODO
-
-* Add support for Hot Module Reloading with [hmr-brunch](https://github.com/brunch/hmr-brunch)
+### Typeahead 4
+https://github.com/shentao/vue-multiselect
